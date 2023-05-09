@@ -459,9 +459,10 @@ footer{
 .subscription{
     display: flex;
     flex-direction: column;
-    margin:0px
+    margin:0px;
+    width:fit-content;
 }
-
+/* 
 
 .email-input{
     display:flex;
@@ -505,7 +506,7 @@ footer{
     box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
     cursor: pointer;
 
-}
+} */
 
 .footer-info{
     display: flex;
