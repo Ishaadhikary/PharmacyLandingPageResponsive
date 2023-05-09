@@ -1,0 +1,1216 @@
+/* Overall css */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: #F3F7FF;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color:#043CAA;
+    font-size: normal;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.header-wrapper{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/assets/images/headercover.svg');
+    padding-top: 35px;
+    color: #F3F7FF;
+
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;    
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    gap:20px
+}
+
+.logo{
+    margin: 0;
+}
+
+.nav-bar{
+    margin: auto;
+    align-self: center;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+.login-button{
+    align-items: center;
+    width: 117px;
+    height: 42px;
+    background: #1BC768;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    color: white; 
+}
+
+.login-button:hover{
+    width: 117px;
+    height: 42px;
+    background: #1b51c7;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
+
+}
+
+.hamburger-menu{
+    display: none;
+    background-image: url(/assets/images/hamburgerMenu.svg);
+}
+
+.text-header-items{
+    margin: 0px;
+}
+
+.text-header-items h1{
+    width: 504px;
+    height: 50px;
+    margin-top: 106px;
+    font-size: 48px;
+}
+
+.text-header-items p{
+    width: 504px;
+    height: 50px;
+    margin-top: 89px;
+    margin-left: 0;
+}
+
+
+.drug-items{
+    display: flex;
+    gap: 21px;
+    width: 476px;
+    height: 45px;
+    margin-left: 0;
+    margin-top: 44px;
+}
+
+.drug-button{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 35px;
+    gap: 10px;
+    background: none;
+    color: white;    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    width: 108px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.drug-button:hover{
+    background-color: white;
+    color: black;
+    box-shadow:7px 7px 13px rgba(243, 240, 240, 0.25);
+    cursor: pointer;
+}
+
+.search-bar{
+    width:490px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 44px 0px;
+    border: 1px solid white;
+    background-color: #F3F7FF;
+    border-radius:24px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); 
+    height: 47px;
+    padding-left: 26px;
+   
+}
+
+.search-bar input{
+    height: 47px;
+    width: 500px;
+    margin-left: 0;
+    border: none;
+}
+
+.find-drugs-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 47px;
+    box-sizing: border-box;
+    background: #1BC768;
+    color: white;   
+    border:none;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius:24px; 
+    margin-right: -1px;
+    }
+
+
+.find-drugs-button:hover{
+    background: #1bc768ca;
+    color: black;
+    box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
+    cursor: pointer;
+
+}
+
+.text-img-header{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.doctor{
+    display: flex;
+    width: 483px;
+    height: 500px;
+    order:1;
+    align-self: flex-end; 
+    margin: 0;  
+}
+
+.affiliation h2, .key-benifits h2{
+    color:#043CAA;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.affiliation{
+      
+    display:flex;
+    flex-direction: column;
+    width: 564px;
+    height: 100%;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.affliation-items{
+    display:flex;
+    flex-direction: row;
+    left:460px;
+    height: 100%;
+    gap:30px
+} 
+
+hr{
+    height: 3px;
+    background: radial-gradient(47.25% 15652% at 2.75% 100%, #043CAA 0%, #043CAA 95.03%, #1BC768 98.36%);
+    border-radius: 50px;
+    margin: 10px 0;
+    border:none;
+}
+
+.key-benifits{
+    display: flex;
+    flex-direction: column;  
+    align-content: center;
+    width: 1018.05px;
+    height: 100%;
+}
+
+.benifit-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benifit-text{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 298px;
+    flex:1;  
+}
+.benifit-text li{
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 5px;
+    line-height: 25px;
+    list-style-type: none;
+    background-image: url('/assets/images/libullet.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    margin-left: 67px;
+    margin-top: 14px;
+}
+
+.prescription-button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 35px;
+    color:#1BC768;
+    gap: 10px;
+    height: 47px;
+    border: 1px solid #1BC768;
+    border-radius: 50px;
+    background: none;
+    margin-top:30px;
+    width: 238px;
+}
+
+
+.benifit-box img{
+    width: 511.25px;
+    height: 518.16px;
+    flex:1;
+}
+
+.benifit-text h3{
+    font-style: bold;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #043CAA;
+    width: 242px;
+}
+
+.full-container{
+    width: 100%;
+    height: 466px;
+    left: 0px;
+    top: 2819px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.full-container img{
+      
+    align-self: flex-start;
+    width: 648px;
+    height: 466px;
+    flex:1;
+}
+
+.full-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;  
+    width: 382px;
+    height: 304px;
+    flex:1;
+    align-items: center;
+    padding:0px 120px;
+}
+
+.full-text h2{
+    font-style: bold;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.full-text hr{
+    left: 140px;
+    text-align: center;
+    height: 3px;
+    background: radial-gradient(47.25% 15652% at 2.75% 100%, #043CAA 0%, #043CAA 95.03%, #1BC768 98.36%);
+    border-radius: 50px;
+    margin-top: 10px;
+    border:none;
+    width: 91px;
+    margin-left: 139px;
+}
+
+.full-text q{
+    color: #7A7A7A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.full-text p{
+    color:#043CAA;
+    font-size: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    margin-left: 0;
+}
+
+.ellipse{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    width: 200px;
+    padding-left: 10px;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    height: 10px;
+}
+
+.ellipse-button{
+    background:#7A7A7A;
+    height: 10px;
+    width: 10px;
+    border:none;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.ellipse-button-green{
+    background: #1bc768ca;
+    height: 10px;
+    width: 10px;
+    border:none;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: black;
+    box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
+}
+
+footer{
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    width: 100%;
+    height: 679px;
+    background-size:cover;
+    background-color: #043CAA;
+    color:white;
+}
+
+.subscription-container{
+    display: flex;
+      
+    width: 1036px;
+    height: 456px;
+}
+
+.subscription-text{
+    display: flex;
+    flex-direction: column;
+      
+    width: 409px;
+    height: 101px;
+    color: #FFFFFF;
+
+}
+
+.subscription-text h2{
+    align-self: flex-start;
+      
+    width: 332px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.subscription-text p{
+      
+    width: 404px;
+    height: 50px;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: column;   
+    width: 490px;
+    height: 88px; 
+}
+
+.email-input{
+    display:flex;
+      
+    width: 482px;
+    height: 52px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 24px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); 
+    padding: 0 16px; 
+    background-color: white;
+    flex-direction: row;
+    border-color:#043CAA;
+}
+
+.subscribe-button{
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    height: 52px;
+    box-sizing: border-box;
+    background: #1BC768;
+    color: white;   
+    border:none;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius:24px ;
+    }
+
+.subscribe-button-image{
+    display: flex;
+    justify-content: center; 
+    width: 24px;
+    height: 24px;
+}
+.subscribe-button:hover{
+    background: #1bc768ca;
+    color: black;
+    box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
+    cursor: pointer;
+
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;   
+      
+    width: 976px;
+    height: 136px;
+}
+
+.dExpress{
+      
+    width: 211px;
+    height: 33px;
+}
+
+.dExpress h3{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.dExpress p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.quick-links{
+      
+    width: 112px;
+    height: 143px;
+}
+
+.quick-links h3, .services h3, .social-media h3 {
+    font-style: bold;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+}
+.quick-links li, .services li, .social-media li{
+    font-style: bold;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    height: 40px;
+    list-style: none;
+}
+
+.services{
+      
+    width: 200px;
+    height: 142px;
+    left: 630px;
+    top: -20px;
+}
+
+.social-media{
+      
+    width: 127px;
+    height: 142px; 
+    left:860px;
+    top: -20px;
+}
+
+.copy-right{   
+    width: 351px;
+    height: 22px;
+    text-align: centerss;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+
+
+
+/* *****************SMALL LAPTOP*************** */
+
+
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+
+  
+    .container{
+        max-width: 100%;
+        padding: 24px 24px 0 24px ;
+    }
+    .nav-container{
+        background-color: orange;
+    }
+
+    .text-header-items h1{
+        width: 504px;
+        height: 50px;
+        font-style: bold;
+        font-size: 36px;
+        margin-top: 40px;
+    }
+
+    .text-header-items p{
+        width: 399px;
+        height: 50px;
+        margin-top: 60px;
+        margin-left: 0;   
+    }
+
+    .drug-items{
+        width: 476px;
+        height: 45px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .drug-button{ 
+        width:78px;
+        height: 39px;
+        margin-left: 0;
+        margin-right: 0px;
+    }
+
+    .search-bar{
+        width:386px;
+        padding-left: 20px;
+        margin-top:26px;
+    }
+    
+    .search-bar input{
+        height: 47px;
+        margin-left: 0;
+        width:300px
+    }
+    
+    .find-drugs-button{
+        width: 110px;
+        height: 47px;
+        }
+
+    .text-img-header{
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+        }
+        
+    .doctor{
+            display: flex;
+            width: 383px;
+            height: 250px;
+            order:1;
+            margin: 0;
+        }
+    .key-benifits{
+            padding: 0px 20px 0px 20px;
+            gap:20px;
+            margin-top: 64px;
+        }
+
+    .benifit-text{
+            display: flex;
+            align-content: flex-start;
+            flex-direction: column;
+            width: 95%;
+            height: 100%;
+            flex:1;  
+        }
+
+    .benifit-box img{
+            width: 300px;
+            height: 80%;
+            flex:1;
+        }
+        .full-container{
+            max-width: 982px;
+            height: 466px;
+            display: flex;
+            flex-direction: row; 
+            align-items: center;
+        }
+        
+        .full-container img{
+              
+            align-self: flex-start;
+            width: 600px;
+            height: 466px;
+            flex:1;
+        }
+        
+        .full-text{
+            padding:0px 0px 0px 10px;
+        }
+        
+        
+        .full-text hr{
+            margin-top: 10px;
+            width: 91px;
+            margin-left: 139px;
+        }
+        
+        .full-text q{
+            font-size: 16px;
+        }
+        
+        .full-text p{
+            font-size: 16px;
+        }
+        
+        
+        
+}
+
+/* *****************TAB*************** */
+
+
+
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .header-wrapper{
+        height: 100%;
+    }
+
+    .container{
+        padding: 20px 20px 0 20px ;
+    }
+    .nav-container{
+        justify-content: center;
+        background-color: aquamarine;
+        margin: 0.5%;
+        padding:0;
+        
+    }
+    .text-header-items h1{
+        font-style: bold;
+        font-size: 32px;;
+    }
+  
+    .nav-bar ul{
+        flex-direction: column;        
+    }
+    .nav-bar li{
+            border:none;
+            padding-bottom: 20px;
+            padding-right: 0;
+    } 
+
+    .text-header-items h1{
+        width: 470px;
+        height: 50px;
+        font-style: bold;
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    .text-header-items p{
+        width: 399px;
+        height: 50px;
+        margin-top: 60px;
+        margin-left: 0;   
+    }
+
+    .drug-items{
+        width: 476px;
+        height: 45px;
+        margin-top: 8px;
+    }
+
+    .drug-button{ 
+        width:70px;
+        height: 35px;
+    }
+
+    .search-bar{
+        height: 40px;
+        width:356px;
+        padding-left: 20px;
+        margin-top:20px
+    }
+
+
+    .search-bar input{
+        height: 40px;
+        margin-left: 0;
+        width:300px
+    }
+    
+    .find-drugs-button{
+        height: 40px;
+        width: 209px;
+        }
+
+    .text-img-header{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .doctor{
+        display: flex;
+        order:1;
+        max-width: 100%;
+        height: 163px;
+        margin-top:102px;
+        align-self: flex-end;   
+        }
+        .key-benifits{
+            padding: 0px 20px 0px 20px;
+            gap:20px;
+            margin-top: 64px;
+        }
+
+    .benifit-text{
+            display: flex;
+            align-content: flex-start;
+            flex-direction: column;
+            width: 70%;
+            height: 100%;
+            flex:1;  
+        }
+
+        .website-content{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+    
+        .affiliation{
+            width: 359px;
+        }
+    
+        .affiliation h2, .key-benifits h2{
+            font-size: 24px;
+        }
+    
+        .affliation-items{
+            flex-direction: column;
+            gap:30px;
+            margin-top:20px;
+        } 
+    
+        .key-benifits{
+            display: flex;
+            flex-direction: column;  
+            align-content: flex-start;
+            width: 359px;
+            height: 100%;
+        }
+        
+        .benifit-box{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .benifit-text{
+            flex:1;
+            padding:0;
+            margin-top: 35px;
+            margin-left: 0px;
+            
+        }
+        .benifit-text li{
+            text-align: left;
+            padding-top: 0px;
+            padding-bottom: 36px;
+            font-size: 16px;
+            height: 2px;
+            line-height: 30px;
+            padding-left: 45px;
+            }
+    
+        
+        .prescription-button{
+            width: 240px;
+        }
+        
+        
+        .benifit-box img{
+            width: 250px;
+            height: 200px;
+            flex:1;
+            order:-1
+        }
+    
+
+        
+        .benifit-text h3{
+            font-size: 18px;
+            width: 317px
+        }
+
+
+        .benifit-text li{
+            padding-left: 40px;
+            width: 400px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    
+        .full-container{
+            flex-direction: column; 
+            align-items: center;
+            align-content: center;
+        }
+        
+        .full-container img{
+              
+            padding: 0;
+            margin:40px auto;
+
+        }
+        
+        .full-text{
+            padding:20px 0px 0px 10px;
+        }
+        
+        
+        .full-text hr{
+            margin-top: 10px;
+            width: 91px;
+            margin-left: 139px;
+        }
+        
+        .full-text q{
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .full-text p{
+            font-size: 16px;
+            margin: 0 auto;
+        }
+        
+        
+    
+    }
+   
+
+/* *****************MOBILE*************** */
+
+
+
+@media screen and (max-width:480px){
+    *{
+        font-size: 14px;
+    }
+    .header-wrapper{
+        height: 380px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        background-image: url('/assets/images/headercover.svg');
+        padding-top: 1%;
+    
+    }
+    .container{
+        max-width: 100%;
+        padding: 16px ;
+        text-align: center;
+    }
+
+
+    .nav-container{
+        margin: 0.5%;
+        padding:0;
+        justify-content: space-evenly;
+        background-color: pink;
+    }
+
+    .nav-bar{
+        display:  none;   
+    }
+
+    .hamburger-menu{
+        display: inline;
+        order:-1;
+        margin: 0%;
+    }
+
+    .logo{
+        margin: auto;
+        order:0;
+    }
+
+    .login-button{ 
+        order:1;
+        width: 75px;
+        height: 30spx;
+        background: #1BC768;
+        border-radius: 13px;
+        border: none;
+        font-size: 14px;
+        color: white; 
+    }
+    
+    .login-button:hover{
+        width: 117px;
+        height: 42px;
+        background: #1BC768;
+        border-radius: 50px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
+    
+    }
+    
+    .text-header-items h1{
+        width:100%;
+        height: 50px;
+        font-style: bold;
+        font-size: 24px;
+        margin-top: 26px;
+    }
+
+    .text-header-items p{
+        width: 100%;
+        height: 50px;
+        margin-top: 24px;
+        margin-left: 0;   
+    }
+
+    .drug-items{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+        gap:10px;
+        justify-content: center;
+    }
+
+    .drug-button{ 
+        width:70px;
+        height: 35px;
+    }
+
+    .search-bar{
+        width:356px;
+        padding-left: 20px;
+        margin:20px auto;
+        height:30px;
+    }
+
+    .search-bar input{
+        height:30px;
+        margin-left: 0;
+        width:300px
+    }
+    
+    .find-drugs-button{
+        height:30px;
+        width: 130px;
+    }
+
+    .doctor{
+        display: none;
+    }
+
+    .website-content{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .affiliation{
+        width: 359px;
+    }
+
+    .affiliation h2, .key-benifits h2{
+        font-size: 24px;
+    }
+
+    .affliation-items{
+        flex-direction: column;
+        gap:30px;
+        margin-top:20px;
+    } 
+
+    .key-benifits{
+        display: flex;
+        flex-direction: column;  
+        align-content: flex-start;
+        width: 359px;
+        height: 100%;
+    }
+    
+    .benifit-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .benifit-text{
+        flex:1;
+        padding:0;
+        margin-top: 35px;
+        margin-left: 0px;
+        
+    }
+    .benifit-text li{
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 36px;
+        font-size: 16px;
+        height: 2px;
+        line-height: 30px;
+        padding-left: 45px;
+        }
+
+    
+    .prescription-button{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 11px 35px;
+        color:#1BC768;
+        gap: 10px;
+        height: 47px;
+        border: 1px solid #1BC768;
+        border-radius: 50px;
+        background: none;
+        margin-top:30px;
+        width: 210px;
+        align-self: center;
+    }
+    
+    
+    .benifit-box img{
+        width: 250px;
+        height: 200px;
+        flex:1;
+        order:-1
+    }
+
+    
+    .benifit-text h3{
+        font-size: 18px;
+    } 
+    
+    
+    .full-container{
+        flex-direction: column; 
+        align-items: center;
+        align-content: center;
+    }
+    
+    .full-container img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin:40px auto;
+
+    }
+    
+    .full-text{
+        padding:20px 0px 0px 10px;
+    }
+    
+    
+    .full-text hr{
+        margin-top: 10px;
+        width: 91px;
+        margin-left: 139px;
+    }
+    
+    .full-text q{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .full-text p{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .ellipse{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        width: 200px;
+        margin-top: 10px;
+        flex-wrap: nowrap;
+        height: 10px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    
+    
+}
+
+
+/* 
+
+
+
+
+ */
+
