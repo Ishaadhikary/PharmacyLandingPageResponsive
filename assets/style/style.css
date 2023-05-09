@@ -21,7 +21,7 @@ a{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/assets/images/headercover.svg');
+    background-image: url('../images/headercover.svg');
     padding-top: 35px;
     color: #F3F7FF;
 
@@ -155,14 +155,14 @@ a{
    
 }
 
-.search-bar input{
+.search-bar input, .email-input{
     height: 47px;
     width: 500px;
     margin-left: 0;
     border: none;
 }
 
-.find-drugs-button{
+.find-drugs-button, .subscribe-button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,35 +415,30 @@ footer{
     display: flex;
     justify-content: center;  
     flex-direction: column;
-    width: 100%;
-    height: 679px;
+    height: 100%;
     background-size:cover;
     background-color: #043CAA;
     color:white;
+    padding:20px;
 }
 
 .subscription-container{
     display: flex;
-      
-    width: 1036px;
-    height: 456px;
+    width: 1200px;
 }
 
 .subscription-text{
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
-      
-    width: 409px;
-    height: 101px;
+    width: 450px;
     color: #FFFFFF;
 
 }
 
 .subscription-text h2{
     align-self: flex-start;
-      
     width: 332px;
-    height: 33px;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -453,31 +448,31 @@ footer{
 .subscription-text p{
       
     width: 404px;
-    height: 50px;
-    font-style: bold;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    margin:0px;
+    margin-left: 58px;
+    padding-top:20px
 }
 
 .subscription{
     display: flex;
-    flex-direction: column;   
-    width: 490px;
-    height: 88px; 
+    flex-direction: column;
+    margin:0px
 }
+
 
 .email-input{
     display:flex;
-      
-    width: 482px;
+    width: 380 px;
     height: 52px;
     justify-content: flex-start;
     align-items: center;
     border: 1px solid white;
-    border-radius: 24px;
+    border-radius: 24px 0px 0px 24px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); 
-    padding: 0 16px; 
+    padding: 0 0px 0 16px; 
     background-color: white;
     flex-direction: row;
     border-color:#043CAA;
@@ -486,10 +481,10 @@ footer{
 .subscribe-button{
       
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 157px;
-    height: 52px;
+    width: 100px;
     box-sizing: border-box;
     background: #1BC768;
     color: white;   
