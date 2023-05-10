@@ -16,7 +16,7 @@ a{
     text-decoration: none;
     color:inherit;
 }
-
+/* Header Css */
 .header-wrapper{
     height: 100%;
     background-repeat: no-repeat;
@@ -203,6 +203,10 @@ a{
     margin: 0;  
 }
 
+/* End of Header Css */
+
+/* Website content CSS */
+
 .affiliation h2, .key-benifits h2{
     margin: 50px auto;
     color:#043CAA;
@@ -312,6 +316,10 @@ hr{
     width: 242px;
 }
 
+/* End of Website content CSS */
+
+/* Full Image(Medicine) Content CSS */
+
 .full-container{
     width: 100%;
     height: 466px;
@@ -412,6 +420,9 @@ hr{
     box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
 }
 
+/* End of Full Image(Medicine) Content CSS */
+
+/* Footer CSS */
 footer{
     display: flex;
     justify-content: center;  
@@ -576,6 +587,8 @@ footer{
     line-height: 22px;
 }
 
+/* Footer CSS */
+
 
 
 
@@ -591,6 +604,7 @@ footer{
         max-width: 100%;
         padding: 24px 24px 0 24px ;
     }
+/* Header CSS */
 
     .text-header-items h1{
         width: 504px;
@@ -651,6 +665,9 @@ footer{
             order:1;
             margin: 0;
         }
+    /* End of Header CSS */
+
+    /* Website Content CSS */
     .key-benifits{
             padding: 0px 20px 0px 20px;
             gap:20px;
@@ -671,6 +688,10 @@ footer{
             height: 80%;
             flex:1;
         }
+
+    /* End of Wesite Content CSS */
+
+    /* Full Image Content Css */
         .full-container{
             max-width: 982px;
             height: 466px;
@@ -705,7 +726,8 @@ footer{
         .full-text p{
             font-size: 16px;
         }
-
+        /* End of Full image Content CSS */
+        /* Footer CSS */
         .subscription-container{
             
             gap:0px;
@@ -714,7 +736,7 @@ footer{
         .email-input{
             width:350px;
         }
-        
+        /* End of Footer CSS */
         
         
 }
@@ -725,6 +747,7 @@ footer{
 
 
 @media screen and (max-width:768px) and (min-width:481px) {
+    /* Header CSS */
     .header-wrapper{
         height: 100%;
     }
@@ -810,7 +833,9 @@ footer{
         margin-top:102px;
         align-self: flex-end;   
         }
-        .key-benifits{
+    /* End of Header CSS */
+    /* Website Content Css */
+    .key-benifits{
             padding: 0px 20px 0px 20px;
             gap:20px;
             margin-top: 64px;
@@ -905,6 +930,8 @@ footer{
             margin-right: 0px;
             margin-left: 0px;
         }
+        /* End of Website Content CSS */
+        /* Full Image Content CSS */
     
         .full-container{
             height:100%;
@@ -947,6 +974,8 @@ footer{
             justify-content: flex-end;
             margin-left: 30px;
         }
+        /* End of Full Image Content Css */
+        /* Footer CSS */
 
         footer{
             position: relative;
@@ -997,6 +1026,7 @@ footer{
             width: 760px;
         }  
     }
+    /*End of Footer CSS */
    
 
 /* *****************MOBILE*************** */
@@ -1007,6 +1037,7 @@ footer{
     *{
         font-size: 14px;
     }
+    /* Header CSS */
     .header-wrapper{
         height: 380px;
         background-repeat: no-repeat;
@@ -1117,6 +1148,8 @@ footer{
     .doctor{
         display: none;
     }
+    /* End of Header Container */
+    /* Website Content CSS */
 
     .website-content{
         display: flex;
@@ -1201,7 +1234,8 @@ footer{
     .benifit-text h3{
         font-size: 18px;
     } 
-    
+    /* End of Website Content CSS */
+    /* Full Image Content CSS */
     
     .full-container{
         flex-direction: column; 
@@ -1240,8 +1274,8 @@ footer{
         margin-left:100px;
         margin-bottom: 20px;
     }
-
-
+    /* End of Full Image CSS */
+    /* Footer CSS */
     footer{
         position: relative;
     }
@@ -1340,15 +1374,15 @@ footer{
     }
     
     
-    .services{
-          
+    .services{   
         width: 100px;
     }
     
-    .social-media{
-          
+    .social-media{    
         width: 100;
     }
+
+    /* End of Footer CSS */
     
     
     
